@@ -1,1 +1,1 @@
-# LazyReferiVisit.github.io
+# LazyReferich.github.io
