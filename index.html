@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Безопасный пароль менеджер</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Безопасный пароль менеджер</h1>
+		<form id="passwordForm">
+			<label for="websiteName">Название веб-сайта:</label>
+			<input type="text" id="websiteName" required>
+
+			<label for="username">Имя пользователя:</label>
+			<input type="text" id="username" required>
+
+			<label for="password">Пароль:</label>
+			<input type="password" id="password" required>
+
+			<button type="submit">Добавить в менеджер</button>
+		</form>
+
+		<div id="passwordList">
+			<h2>Список сохраненных паролей:</h2>
+			<ul id="passwords"></ul>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
